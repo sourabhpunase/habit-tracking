@@ -1,0 +1,51 @@
+.topnav{
+    display: flex;
+    background-image: url('https://cdn.pnghd.pics/data/11/background-green-dark-19.jpg');
+    background-size: cover;
+    text-align: center;
+    align-items: center;
+    padding: 20px;
+    width:97%;
+    justify-content: space-between;
+ 
+ }
+
+.navLeft{
+   display: flex;
+   width: 50%;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.navLeftElem {
+    list-style-type: none;
+    font-weight: 400;
+    text-decoration: none ;
+    font-size: 20px;
+}
+
+.decorationLogo{
+   text-decoration: none ;
+   border-radius: 5px ;
+   font-size: 22px ;
+   font-weight: 700;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   color: beige;
+}
+
+.decoration{
+   text-decoration: none ;
+   color: azure;
+   font-weight: 600;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+.decoration img{
+    height: 50px;
+    
+}
+
+.navRightElem{
+   color: rgb(246, 229, 229);
+   font-weight: 600;
+}

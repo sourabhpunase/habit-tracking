@@ -1,0 +1,46 @@
+.container{
+    width: 60%;
+    margin: auto;
+   
+}
+
+.weeklyCard{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid rgb(244, 224, 224) ;
+    margin: 50px 0px ;
+    padding: 20px ;
+    border-radius: 30px;
+    background: #CC95C0;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, #7AA1D2, #DBD4B4, #CC95C0);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #7AA1D2, #DBD4B4, #CC95C0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+}
+
+.habitTitle{
+    font-size: 20px;
+    font-weight: 600;
+    color: rgb(69, 12, 47);
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.weeklyDate{
+   margin-top: 10px;
+   display: flex ;
+   text-align: center;
+   align-items: center;
+   justify-content: space-between;
+}
+
+.singleDay{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    /* border: 1px solid #ddd; */
+    padding: 5px;
+    border-radius: 5px;
+    background-color: rgb(243, 219, 188);
+}
